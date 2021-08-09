@@ -22,7 +22,7 @@ console.log(twoPlusTwo) // 4
 
 // Exercise 3
 // Write a function called longest that returns the longest of two input strings
-//or arrays.
+// or arrays.
 
 
 
