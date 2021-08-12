@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  font-family: Roboto;
+  font-weight: 500;
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+html {}
+
+nav {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 375px;
+  font-size: 0.9rem;
+}
+
+#nav-right {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  font-size: 0.9rem;
+}
+
+#nav-shoe-image {
+  max-width: 60px;
+  width: auto;
+  height: auto;
+}
+
+#nav-cart-image {
+  width: 1rem;
+  height: 1rem;
+  padding-right: 0.3rem;
+}
+
+nav a {
+  color: #FF5349;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #800000;
+  text-decoration: underline;
+  text-underline-offset: 0.6em;
+}
+
+#top-section {
+  display: flex;
+  width: 100%;
+  height: 30rem;
+  background-image: linear-gradient(to right, #ff1d8e, #ff3b00);
+}
+
+#left-top-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#left-top-section img {
+  padding: 2rem 0rem 0rem 8rem;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+#left-top-section a {
+  padding: 5rem 0rem 0rem 10rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+#left-top-section a:hover {
+  text-decoration: underline;
+}
+
+#right-top-section {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 4rem 0rem 0rem 8rem;
+}
+
+
+#right-top-section h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 200;
+    padding-bottom: 1rem;
+}
+
+#right-top-section h2 {
+  font-size: 1rem;
+  text-align: left;
+  color: #800000;
+  padding-bottom: 1rem;
+}
+
+#right-top-section hr {
+    border: 0.5px dashed #800000;
+    width: 95%;
+
+}
+
+#right-top-section p {
+  color: white;
+  font-weight: 100;
+  line-height: 2.0;
+  padding: 1rem 0rem;
+}
+
+#right-top-section #price {
+  font-size: 1.5rem;
+}
+
+#right-top-section button {
+  width: 100px;
+  height: 35px;
+  background-color: white;
+  border: none;
+  border-radius: 0.2rem;
+  margin-left: 1rem;
+}
+
+#right-top-section button:hover {
+  background-color: #ff0783;
+  color: white;
+  border: 1px solid white;
+}
+
+#price-button-div {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  height: 35rem;
+}
+
+#recommendation-section {
+  width: 100%;
+}
+
+#recommendations-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightpink;
+  height: 4rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#recommended-shoes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to right, #ff1d8e, #ff3b00);
+  width: 100%;
+  height: 22rem;
+}
+
+#shoes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.shoe-recs {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+
+#recommendation-section img {
+  padding-bottom: 1.5rem;
+}
+
+
+
+#recommendation-section h3 {
+  color: white;
+  font-size: 1.6rem;
+}
+
+#recommendation-section h4 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+#recommendation-section h5 {
+  color: #800000;
+  font-size: 1rem;
+}
+.shoe-name-price-div {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+footer {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 375px;
+  font-size: 0.9rem;
+}
+
+#footer-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  font-size: 0.9rem;
+}
+
+#footer-shoe-image {
+  max-width: 60px;
+  width: auto;
+  height: auto;
+}
+
+
+footer a {
+  color: #FF5349;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #800000;
+  text-decoration: underline;
+  text-underline-offset: 0.6em;
+}
+
+.footer-essentials {
+  color: gray;
+  text-decoration: underline;
+}
